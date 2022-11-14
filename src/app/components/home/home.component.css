@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: blue;
+    background-size: cover;
+}
+
+/* Desktop menu */
+@media all and (min-width: 900px) {
+
+}
+
+/* Tablet menu */
+@media all and (min-width: 600px) {}

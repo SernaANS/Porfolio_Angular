@@ -12,4 +12,6 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  videoSource:String="assets/video/ZARA_ATHLETICZ_By_Curtis.mp4"
+
 }
