@@ -18,6 +18,8 @@ import { PortafolioComponent } from './components/home/portafolio/portafolio.com
 import { CardInfoComponent } from './components/home/card-info/card-info.component';
 import { ImagenComponent } from './components/home/card-info/imagen/imagen.component';
 import { InformationComponent } from './components/home/card-info/information/information.component';
+import { DevelopmentComponent } from './components/development/development.component';
+import { CertificateComponent } from './components/certificate/certificate.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { InformationComponent } from './components/home/card-info/information/in
     PortafolioComponent,
     CardInfoComponent,
     ImagenComponent,
-    InformationComponent
+    InformationComponent,
+    DevelopmentComponent,
+    CertificateComponent
   ],
   imports: [
     BrowserModule,
