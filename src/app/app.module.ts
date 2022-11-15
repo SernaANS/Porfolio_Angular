@@ -14,12 +14,20 @@ import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule} from '@angular/material/list';
 import { MatIconModule} from '@angular/material/icon';
 import { MatButtonModule} from '@angular/material/button';
+import { PortafolioComponent } from './components/home/portafolio/portafolio.component';
+import { CardInfoComponent } from './components/home/card-info/card-info.component';
+import { ImagenComponent } from './components/home/card-info/imagen/imagen.component';
+import { InformationComponent } from './components/home/card-info/information/information.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavegationComponent,
-    HomeComponent
+    HomeComponent,
+    PortafolioComponent,
+    CardInfoComponent,
+    ImagenComponent,
+    InformationComponent
   ],
   imports: [
     BrowserModule,

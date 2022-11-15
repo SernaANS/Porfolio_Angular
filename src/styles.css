@@ -4,11 +4,15 @@
     src: url(assets/fonts/underrated_font.otf) format("opentype");
 }
 
+@font-face {
+    font-family: montserrat_light;
+    src: url(assets/fonts/montserrat_full_version/Montserrat-Light.otf) format("opentype");
+}
 
-/* @font-face {
-    font-family: underrated;
-    src: url(assets/fonts/underrated_font.otf) format("opentype");
-} */
+@font-face {
+    font-family: montserrat_medium;
+    src: url(assets/fonts/montserrat_full_version/Montserrat-Medium.otf) format("opentype");
+}
 
 body { 
     margin: 0; 

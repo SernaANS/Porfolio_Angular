@@ -1,0 +1,52 @@
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.img_mini{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 30px;
+}
+
+
+.title{
+    font-family: underrated;
+    text-align: center;
+}
+
+.wrapper {
+  overflow: hidden; 
+}
+
+.one {
+  float: left;
+  margin: 10px;
+  margin-right: 20px;
+  width: 20%;
+}
+
+.two {
+  overflow: hidden; 
+  min-height: 50px;
+  margin-top: 10%;
+
+}
+
+a{
+  color: white;
+  font-family: montserrat_light;
+  text-decoration: none;
+}
+
+
+/*movile*/
+@media screen and (max-width: 480px) {
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+}
