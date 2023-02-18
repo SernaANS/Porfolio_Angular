@@ -8,7 +8,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 })
 export class BanerComponent implements OnInit {
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+  constructor() {}
 
   ngOnInit(): void {
   }

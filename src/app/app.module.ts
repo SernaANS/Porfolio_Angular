@@ -7,12 +7,6 @@ import { AppComponent } from './app.component';
 import{ROUTES} from './app.routes';
 import { RouterModule} from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule} from '@angular/material/toolbar';
-import { MatSidenavModule} from '@angular/material/sidenav';
-import { MatListModule} from '@angular/material/list';
-import { MatIconModule} from '@angular/material/icon';
-import { MatButtonModule} from '@angular/material/button';
 import { BanerComponent } from './components/home/baner/baner.component';
 import { PersonalInformationComponent } from './components/home/personal-information/personal-information.component';
 import { EducationComponent } from './components/home/education/education.component';
@@ -38,18 +32,10 @@ import { ResponsiveDirective } from './components/home/directives/responsive.dir
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     
     //ROUTES
     AppRoutingModule,
     RouterModule.forRoot( ROUTES ,{useHash:true}),
-    
-    //MATERIAL
-    MatToolbarModule,
-    MatSidenavModule,
-    MatListModule,
-    MatIconModule,
-    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
