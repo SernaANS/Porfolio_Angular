@@ -9,14 +9,17 @@ import { RouterModule} from '@angular/router';
 import { HomeComponent } from './component/home/home.component';
 import { HeaderComponent } from './component/home/header/header.component';
 import { BanerComponent } from './component/home/baner/baner.component';
-
-
+import { AboutComponent } from './component/home/about/about.component';
+import { SkillsComponent } from './component/home/skills/skills.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    BanerComponent
+    BanerComponent,
+    AboutComponent,
+    SkillsComponent,
+
   ],
   imports: [
     BrowserModule,
