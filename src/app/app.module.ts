@@ -11,6 +11,7 @@ import { HeaderComponent } from './component/home/header/header.component';
 import { BanerComponent } from './component/home/baner/baner.component';
 import { AboutComponent } from './component/home/about/about.component';
 import { SkillsComponent } from './component/home/skills/skills.component';
+import { QualificationComponent } from './component/home/qualification/qualification.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { SkillsComponent } from './component/home/skills/skills.component';
     BanerComponent,
     AboutComponent,
     SkillsComponent,
+    QualificationComponent,
 
   ],
   imports: [
