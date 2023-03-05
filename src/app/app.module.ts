@@ -12,6 +12,8 @@ import { BanerComponent } from './component/home/baner/baner.component';
 import { AboutComponent } from './component/home/about/about.component';
 import { SkillsComponent } from './component/home/skills/skills.component';
 import { QualificationComponent } from './component/home/qualification/qualification.component';
+import { FooterComponent } from './component/home/footer/footer.component';
+import { ScrollupComponent } from './component/home/scrollup/scrollup.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +23,8 @@ import { QualificationComponent } from './component/home/qualification/qualifica
     AboutComponent,
     SkillsComponent,
     QualificationComponent,
+    FooterComponent,
+    ScrollupComponent,
 
   ],
   imports: [
