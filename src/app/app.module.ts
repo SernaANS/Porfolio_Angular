@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 
 import{ROUTES} from './app.routes';
 import { RouterModule} from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 import { HomeComponent } from './component/home/home.component';
 import { HeaderComponent } from './component/home/header/header.component';
 import { BanerComponent } from './component/home/baner/baner.component';
@@ -14,6 +17,7 @@ import { SkillsComponent } from './component/home/skills/skills.component';
 import { QualificationComponent } from './component/home/qualification/qualification.component';
 import { FooterComponent } from './component/home/footer/footer.component';
 import { ScrollupComponent } from './component/home/scrollup/scrollup.component';
+import { CarouselModule } from './component/home/carousel/carousel.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,14 +29,14 @@ import { ScrollupComponent } from './component/home/scrollup/scrollup.component'
     QualificationComponent,
     FooterComponent,
     ScrollupComponent,
-
   ],
   imports: [
     BrowserModule,
-    
+    BrowserAnimationsModule,
     //ROUTES
     AppRoutingModule,
     RouterModule.forRoot( ROUTES ,{useHash:true}),
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

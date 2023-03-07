@@ -1,0 +1,26 @@
+<section class="carousel section" id="proyects">
+  <h2 class="section__title">Proyects</h2>
+  <span class="section__subtitle">My personel proyects</span>
+
+  <div class="carousel__container container">
+    <div class="slider">
+      <div>
+        <div (click)="goToPrevious()" class="leftArrow">❰</div>
+        <div (click)="goToNext()" class="rightArrow">❱</div>
+      </div>
+      <div
+        class="slide"
+        [ngStyle]="{ 'background-image': getCurrentSlideUrl() }"
+      ></div>
+      <div class="dotsContainer">
+        <div
+          *ngFor="let slide of slides; let slideIndex = index"
+          class="dot"
+          (click)="goToSlide(slideIndex)"
+        >
+          ●
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
