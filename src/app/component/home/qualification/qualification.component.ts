@@ -8,7 +8,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 export class QualificationComponent implements OnInit {
 
 
-  @HostBinding('class.active') toggle: number = 2;
+  @HostBinding('class.active') toggle: number = 1;
 
   constructor() { }
 

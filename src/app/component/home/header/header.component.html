@@ -1,10 +1,8 @@
 <div class="header">
   <nav class="nav container">
-
     <a href="index.html" class="nav__logo">Serna</a>
 
-
-    <div class='{{toggle?"nav__menu show-menu":"nav__menu"}}'>
+    <div class="{{ toggle ? 'nav__menu show-menu' : 'nav__menu' }}">
       <ul class="nav__list grid">
         <li class="nav__item">
           <a href="#baner" class="nav__link active-link">
@@ -25,19 +23,19 @@
         </li>
 
         <li class="nav__item">
-          <a href="#service" class="nav__link">
-            <i class="uil uil-briefcase-alt nav__icon"></i>Portfolio
-          </a>
-        </li>
-
-        <li class="nav__item">
           <a href="#qualification" class="nav__link">
             <i class="uil uil-scenery nav__icon"></i>Qualification
           </a>
         </li>
+
+        <li class="nav__item">
+          <a href="#proyects" class="nav__link">
+            <i class="uil uil-briefcase-alt nav__icon"></i>Proyects
+          </a>
+        </li>
       </ul>
 
-      <i class="uil uil-times nav__close"  (click)="toggleNavbar()"></i>
+      <i class="uil uil-times nav__close" (click)="toggleNavbar()"></i>
     </div>
 
     <div class="nav__toggle" (click)="toggleNavbar()">

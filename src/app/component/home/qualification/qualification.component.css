@@ -14,10 +14,13 @@
     color:var(--title-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 .qualification__button:hover{
     color: var(--title-color-dark);
+    font-size: var(--h2-font-size);
 }
 
 .qualification__icon{
@@ -27,6 +30,7 @@
 
 .qualification__active{
     color: var(--title-color-dark);
+    background-color: #D3D3D3;
 }
 
 .qualification__sections{
@@ -57,7 +61,7 @@
 .qualification__subtitle{
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-0-25);
 }
 
 .qualification__calender{
